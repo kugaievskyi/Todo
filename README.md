@@ -9,7 +9,9 @@
    `composer install`
 3. Copy and setup .env\
    `cp .env.example .env`
-4. test it out\
+4. Migrate db\
+   `php artisan migrate`
+5. test it out\
    `php artisan serve`
 
 <hr>
