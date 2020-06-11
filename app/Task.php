@@ -6,11 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
-    protected $fillable = [
-        'id','name', 'userId',
-    ];
+    protected $fillable = ["name", "description","difficulty" ];
 
-    public User(){
-        return this->hasOne('App\User','userId');
-    }
+
+    
+
+
+
 }
+
+?>
+
+
